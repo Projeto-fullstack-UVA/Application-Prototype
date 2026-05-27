@@ -1,0 +1,17 @@
+{
+  "name": "application-prototype",
+  "module": "index.ts",
+  "type": "module",
+  "private": true,
+  "devDependencies": {
+    "@types/bun": "latest"
+  },
+  "peerDependencies": {
+    "typescript": "^5"
+  },
+  "dependencies": {
+    "tailwind": "^4.0.0",
+    "vite.js": "^1.0.1",
+    "vue": "^3.5.35"
+  }
+}
