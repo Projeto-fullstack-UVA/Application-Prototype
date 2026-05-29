@@ -33,7 +33,7 @@ Layered as `src/repository/` → `src/service/` → `src/index.ts` (router).
 
 - Framework: Vue 3 + Vue Router
 - Build tool: Vite
-- Styling: [PicoCSS](https://picocss.com)
+- Styling: Tailwindcss
 - Port: `5173` (dev)
 
 Views: `LoginView`, `SignUpView`, `LibraryView`, `ProfileView`.
@@ -41,14 +41,16 @@ Views: `LoginView`, `SignUpView`, `LibraryView`, `ProfileView`.
 ## Getting started
 
 ```bash
+# Clone the repository
 git clone https://github.com/Projeto-fullstack-UVA/Application-Prototype.git
+cd Application-Prototype
 
-# Back-end
+# Start the back-end
 cd back-end
 bun install
 bun run dev
 
-# Front-end (separate terminal)
+# Start the front-end (separate terminal)
 cd front-end
 bun install
 bun run dev
