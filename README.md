@@ -41,6 +41,8 @@ Views: `LoginView`, `SignUpView`, `LibraryView`, `ProfileView`.
 ## Getting started
 
 ```bash
+git clone https://github.com/Projeto-fullstack-UVA/Application-Prototype.git
+
 # Back-end
 cd back-end
 bun install
