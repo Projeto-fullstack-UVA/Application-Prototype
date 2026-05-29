@@ -43,6 +43,7 @@ Views: `LoginView`, `SignUpView`, `LibraryView`, `ProfileView`.
 ```bash
 # Back-end
 cd back-end
+bun install
 bun run dev
 
 # Front-end (separate terminal)
